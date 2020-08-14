@@ -1,11 +1,5 @@
-libnginx-mod-http-modsecurity (1.0.1-1~bionic1) bionic; urgency=medium
+libnginx-mod-http-modsecurity (1.0.1-1~focal1) focal; urgency=medium
 
-  * Upgrade to Nginx 1.14.0, same as what's shipped with Ubuntu 18.04 final.
+  * Initial release for 20.04.
 
- -- Hongli Lai <hongli@phusion.nl>  Sat, 28 Apr 2018 11:14:26 +0000
-
-libnginx-mod-http-modsecurity (1.0.0-1~bionic1) bionic; urgency=medium
-
-  * Initial release.
-
- -- Hongli Lai <hongli@phusion.nl>  Wed, 21 Feb 2018 13:59:26 +0000
+ -- Niels Kristensen <niels@kristensen.io>  Fri, 14 Aug 2020 06:16:31 +0200

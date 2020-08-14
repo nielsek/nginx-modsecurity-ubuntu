@@ -31,19 +31,19 @@ LIBMODSECURITY_REF = 6f92c8914a822f
 # If you change this number, then:
 # - you MUST bump PACKAGE_VERSION.
 # - you MUST synchronize the corresponding numbers in spec/control.
-NGINX_VERSION = 1.14.0
+NGINX_VERSION = 1.18.0
 
 # If you've updated the package, but without updating MODSECURITY_REF,
 # LIBMODSECURITY_REF or NGINX_VERSION (that is, you did not update PACKAGE_VERSION),
 # then you must bump this number.
 #
 # Only modify the number before the `~` part. Don't touch the text after
-# the `~` part. For example, if you want to bump `1~bionic1` then
-# change it to `2~bionic1`.
+# the `~` part. For example, if you want to bump `1~focal1` then
+# change it to `2~focal1`.
 #
 # Also, be sure to edit spec/control and add a changelog entry there
 # with `$(PACKAGE_VERSION)-$(PACKAGE_REVISION)` as version number.
-PACKAGE_REVISION = 1~bionic1
+PACKAGE_REVISION = 1~focal1
 
 DPKG_BUILDPACKAGE_ARGS =
 
